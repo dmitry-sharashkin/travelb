@@ -1,0 +1,642 @@
+.intro {
+  background: url(../../img/intro.png) no-repeat center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 1920px;
+  min-height: 960px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-right: 100px;
+  margin-top: 44px;
+}
+.navigation ul li a {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+.intro-title__box {
+  text-align: center;
+}
+.intro-title__box h1 {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-weight: 700;
+}
+.intro-title__box p {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  letter-spacing: 4.2px;
+}
+.intro-title__box a {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 20px 83px;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 2.52px;
+}
+.social {
+  position: absolute;
+  display: inline-block;
+  right: -265px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.social ul {
+  display: inline-block;
+}
+.social ul li {
+  display: inline-block;
+}
+.social ul li a {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  /* Text style for "Instagram" */
+  letter-spacing: 2.8px;
+  margin-right: 78px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1310px;
+  padding: 0 123px;
+}
+.about {
+  padding-top: 65px;
+  padding-bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.about__article {
+  width: 46%;
+  margin-right: 20px;
+}
+.about__article h2 {
+  color: #c4c4c4;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 500;
+  /* Text style for "About us" */
+  letter-spacing: 3.08px;
+}
+.about__article h3 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* Text style for "WE WILL TU" */
+  letter-spacing: 4.2px;
+  margin: 20px 0 42px;
+}
+.about__article p {
+  color: #5b5b5c;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 3.08px;
+  margin-bottom: 34px;
+}
+.about__article a {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* Text style for "MORE INFO" */
+  letter-spacing: 2.52px;
+  margin-top: 44px;
+  display: inline-block;
+  padding: 16px 64px;
+  border: 2px solid #000000;
+}
+.about__img {
+  width: 50%;
+}
+.about__img img {
+  width: 100%;
+  height: auto;
+}
+.gallery {
+  margin-bottom: 165px;
+  text-align: center;
+}
+.gallery h3 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "PHOTOS OF" */
+  letter-spacing: 7.2px;
+}
+.gallery p {
+  margin: 30px 0 87px;
+  color: #5b5b5c;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 4.2px;
+}
+.gallery .gallery-box img {
+  height: 280px;
+  width: auto;
+  margin: 5px;
+}
+.gallery .gallery__pages {
+  color: #c5c5c5;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 4.2px;
+  margin-top: 70px;
+}
+.travel h2 {
+  text-align: center;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "TRAVEL WIT" */
+  letter-spacing: 7.2px;
+}
+.travel .travel__txt {
+  text-align: center;
+  color: #5b5b5c;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 500;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 4.2px;
+  margin: 30px 0 55px;
+}
+.travel .travel-article__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.travel .travel-article__box .travel-article {
+  width: 49%;
+}
+.travel .travel-article__box .travel-article img {
+  width: 100%;
+}
+.travel .travel-article__box .travel-article h4 {
+  display: inline-block;
+  width: 84%;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "WEEKLY GRO" */
+  letter-spacing: 1.2px;
+  margin: 30px 0;
+}
+.travel .travel-article__box .travel-article p {
+  display: inline-block;
+  width: 84%;
+  color: #848484;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 30px;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 3px;
+}
+.travel .travel-article__box .travel-article a {
+  display: inline-block;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-transform: uppercase;
+  /* Text style for "VIEW PHOTO" */
+  letter-spacing: 1.2px;
+  padding: 12px 22px;
+  background-color: #dddcdc;
+  margin-top: 40px;
+}
+.tour__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 140px;
+}
+.tour__box .tour-photo__box {
+  width: 44.3%;
+}
+.tour__box .tour-photo__box img {
+  width: 100%;
+}
+.tour__box .tour__article {
+  width: 45%;
+}
+.tour__box .tour__article h3 {
+  color: #c4c4c4;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  /* Text style for "Next Tour" */
+  letter-spacing: 3.08px;
+}
+.tour__box .tour__article h4 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  /* Text style for "UNFORGETTA" */
+  letter-spacing: 4.2px;
+  margin: 20px 0 30px;
+}
+.tour__box .tour__article p {
+  color: #5b5b5c;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  /* Text style for "Lorem ipsu" */
+  letter-spacing: 1.08px;
+  margin-bottom: 32px;
+}
+.form {
+  padding: 85px 85px 85px 160px;
+  margin: 0 auto;
+  max-width: 1310px;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.form__txt {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form__txt h4 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+}
+.form__txt p {
+  color: #5b5b5c;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin-top: 12px;
+}
+.form__box {
+  display: inline-block;
+}
+.form__box input {
+  border: 2px solid #7a7a7a;
+  padding: 12px 16px;
+  color: #3a4047;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: capitalize;
+  margin-right: 20px;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+.form__box button {
+  padding: 15px 50px;
+  background-color: #3a4047;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+}
+.footer .footer__name {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer .footer__2019 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 12px 0 60px;
+}
+.footer-nav {
+  margin: 66px 0 44px;
+}
+.footer-nav ul li {
+  display: inline-block;
+  margin-right: 55px;
+}
+.footer-nav ul li a {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.footer-nav ul li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .form__box input,
+  .form__box button {
+    max-width: 150px;
+    font-size: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+}
+@media (max-width: 992px) {
+  .wrap {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .intro-title__box h1 {
+    font-size: 65px;
+  }
+  .intro-title__box p {
+    font-size: 20px;
+  }
+  .intro-title__box a {
+    font-size: 13px;
+    padding: 13px 60px;
+  }
+  .about__article h2 {
+    font-size: 18px;
+  }
+  .about__article h3 {
+    font-size: 19px;
+    letter-spacing: 3px;
+    margin: 14px 0 30px;
+  }
+  .about__article p {
+    font-size: 12px;
+  }
+  .about__article a {
+    font-size: 14px;
+    padding: 14px 44px;
+    margin-top: 30px;
+  }
+  .gallery h3 {
+    font-size: 22px;
+    letter-spacing: 5px;
+  }
+  .gallery p {
+    font-size: 18px;
+    margin: 20px 0 60px;
+  }
+  .gallery .gallery-box img {
+    height: 170px;
+  }
+  .gallery .gallery__pages {
+    margin-top: 50px;
+    font-size: 20px;
+  }
+  .travel h2 {
+    font-size: 23px;
+    letter-spacing: 5px;
+  }
+  .travel .travel__txt {
+    font-size: 18px;
+    margin: 20px 0 60px;
+  }
+  .tour__box {
+    margin-top: 100px;
+  }
+  .tour__box .tour__article h4 {
+    font-size: 17px;
+    margin: 17px 0 22px;
+  }
+  .tour__box .tour__article p {
+    font-size: 10px;
+    margin-bottom: 24px;
+  }
+  .form__txt {
+    margin-right: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .wrap {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .intro {
+    min-height: 700px;
+  }
+  .navigation ul li {
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+  .intro-title__box h1 {
+    font-size: 44px;
+  }
+  .intro-title__box p {
+    font-size: 14px;
+  }
+  .social {
+    right: -188px;
+  }
+  .social ul li a {
+    font-size: 15px;
+    margin-right: 40px;
+  }
+  .about {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .about__article {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .about__img {
+    width: 90%;
+  }
+  .travel .travel-article__box .travel-article h4 {
+    margin: 18px 0;
+  }
+  .travel .travel-article__box .travel-article a {
+    margin-top: 24px;
+  }
+  .travel .travel-article__box .travel-article p {
+    line-height: 2;
+  }
+  .tour__box .tour__article {
+    width: 80%;
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  .tour__box .tour-photo__box {
+    width: 80%;
+  }
+  .tour__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .form {
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .form__txt {
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .form__box button {
+    padding: 14px 60px;
+  }
+  .footer-nav ul li {
+    margin-right: 30px;
+  }
+  .footer-nav ul li a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 479px) {
+  .intro {
+    min-height: 568px;
+  }
+  .navigation ul li {
+    margin-right: 25px;
+  }
+  .navigation ul li a {
+    font-size: 18px;
+  }
+  .social ul li a {
+    font-size: 10px;
+    margin-right: 20px;
+  }
+  .social {
+    right: -129px;
+  }
+  .wrap {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .about__article {
+    margin-right: 0;
+    width: 95%;
+  }
+  .about__img {
+    width: 100%;
+  }
+  .gallery .gallery-box img {
+    height: 110px;
+    margin: 2px;
+  }
+  .travel .travel-article__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .travel .travel-article__box .travel-article {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .tour__box .tour__article {
+    width: 100%;
+  }
+  .tour__box .tour-photo__box {
+    width: 95%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
